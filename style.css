@@ -1,0 +1,136 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(9, 177, 104, 0.238);
+    margin: 0;
+    font-family: 'Arial', sans-serif; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px; 
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="address"],
+input[type="password"],
+input[type="file"],
+select {
+    width: 100%; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease; 
+}
+
+
+input:focus {
+    border-color: rgb(12, 121, 108); 
+    box-shadow: 0 0 5px rgba(12, 121, 108, 0.5); 
+}
+
+
+input[type="reset"] {
+    background-color: rgba(18, 95, 163, 0.745);
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease; 
+}
+
+
+input[type="reset"]:hover {
+    background-color: rgba(18, 95, 163, 0.927); 
+}
+
+
+#courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: large;
+    background-color: rgba(31, 131, 88, 0.182);
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.preferred-schedule,
+.mode-of-study,
+.preferred-month {
+    margin-bottom: 20px; 
+    width: 100%;
+}
+
+
+.preferred-schedule label,
+.mode-of-study label,
+.preferred-month label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block; 
+}
+
+
+.preferred-schedule select,
+.mode-of-study select,
+.preferred-month select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease; 
+    background-color: white; 
+}
+
+
+.preferred-schedule select:focus,
+.mode-of-study select:focus,
+.preferred-month select:focus {
+    border-color: rgb(12, 121, 108); 
+    box-shadow: 0 0 5px rgba(12, 121, 108, 0.5); 
+}
+
+
+
+button {
+    background-color: rgb(38, 44, 43);
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-top: 10px;
+}
+
+
+button:hover {
+    background-color: rgb(20, 90, 80);
+}

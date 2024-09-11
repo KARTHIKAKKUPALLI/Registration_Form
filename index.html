@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_Forms</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h2 class="form-title">Registration Form</h2>
+    <form action="">
+        <input id="name" type="text" placeholder="Name" autofocus autocapitalize="Name">
+        <input type="email" placeholder="Email Adress">
+        <input type="text" name="" id="" placeholder="Country">
+        <input type="number" placeholder="phone">
+        <input type="text" placeholder="Address">
+        <input type="password" placeholder="password">
+        <input type="file" accept=".jpeg">
+        <input type="Reset">
+       
+        <div id="courses">
+            <label for="">Courses</label>
+            <input type="radio" name="cr">
+            <span>HTML</span>
+            <input type="radio" name="cr">
+            <span>CSS</span>
+            <input type="radio" name="cr">
+            <span>Bootstrap</span>
+
+        </div>
+        <div class="preferred-schedule">
+            <label for="schedule">Preferred Schedule:</label>
+            <select id="schedule" name="schedule">
+                <option value="none">none</option>
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+            </select>
+        </div>
+        <div class="mode-of-study">
+        <label for="mode">Mode of Study:</label>
+        <select id="mode" name="mode">
+            <option value="none">none</option>
+            <option value="online">Online</option>
+            <option value="offline">Offline</option>
+            <option value="hybrid">Hybrid</option>
+        </select>
+        </div>
+        <div class="preferred-month">
+            <label for="month">Preferred Month:</label>
+            <select id="month" name="month">
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+            </select>
+        </div>
+        <button type="submit">Create an Account</button>
+    </form>
+</body>
+
+</html>
